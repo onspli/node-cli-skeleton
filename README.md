@@ -8,7 +8,9 @@ Skeleton of CLI Node.js app. Pre-packed with:
 - [commander](https://www.npmjs.com/package/commander) CLI arguments parser
 - [dotenv](https://www.npmjs.com/package/dotenv) settings loader
 
-## Clone
+## Use the Template
+
+Clone the repository:
 
 ```sh
 git clone --depth=1 https://github.com/onspli/node-cli-skeleton.git my-cli-app
@@ -16,7 +18,9 @@ cd my-cli-app
 rm -rf .git
 ```
 
-## Usage
+Find all occurences of `node-cli-skeleton` and replace them with `my-cli-app`.
+
+## Build and Run the App
 
 Build the app and test it:
 
@@ -32,7 +36,7 @@ Run the app:
 node dist/main.js
 ```
 
-Install the app locally and execute it:
+Link the app locally and execute it:
 
 ```sh
 npm link
